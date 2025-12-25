@@ -16,7 +16,7 @@ const renderer = new THREE.WebGLRenderer({
 
 const geometry = new THREE.BoxGeometry( 3,3,3 );
 const texture = new
-THREE.TextureLoader().load('snoopy.jpg');
+THREE.TextureLoader().load('/snoopy.jpg');
 const material = new THREE.MeshBasicMaterial( { map:texture } );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
